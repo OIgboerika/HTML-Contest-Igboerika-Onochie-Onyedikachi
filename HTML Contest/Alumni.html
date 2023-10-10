@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alumni Hangout - ALU University Alumni</title>
+    <link rel="stylesheet" href="alumni.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to ALU Alumni Hangout</h1>
+        <p>Your platform for ALU alumni networking and event updates.</p>
+        <section id="aims-objectives"></section>
+        <h2>Aims and Objectives</h2>
+        <p>AlumniConnect aims to:</p>
+        <ul>
+            <li>Facilitate networking among alumni.</li>
+            <li>Promote professional development.</li>
+            <li>Keep alumni informed about campus events.</li>
+        </ul>    
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Upcoming Events</h2>
+        <div class="event">
+            <h3>Professional Development Event Day 1</h3>
+            <p>Date: December 15, 2023</p>
+            <p>Description: Come and experience what it means to truly work on yourself.</p>
+            <button onclick="registerEvent('event1')">Register</button>
+        </div>
+        <div class="event">
+            <h3>Professional Development Event Day 2</h3>
+            <p>Date: February 28, 2024</p>
+            <p>Description: Another day for exciting professional development opportunity for alumni.</p>
+            <button onclick="registerEvent('event3')">Register</button>
+        </div>
+
+        
+        <h2>Campus Events</h2>
+        <div class="event">
+            <h3>Campus visit by President Paul Kagame</h3>
+            <p>Date: February 20, 2024</p>
+            <p>Description: Come and experience the presence of the President himself.</p>
+            <button onclick="registerEvent('event2')">Register</button>
+        </div>
+        <div class="event">
+            <h3>Visit by Kensuke Ushio</h3>
+            <p>Date: March 10, 2024</p>
+            <p>Description: Join us for a fun and engaging experience with Japan's greatest music songwriter.</p>
+            <button onclick="registerEvent('event4')">Register</button>
+        </div>
+    </section>
+
+    <section id="events">
+        <!-- Event details will be dynamically loaded here -->
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="member">
+            <img src="C:\Users\DELL\Desktop\STUFF\ALU\ONO (1 of 1).jpg" alt="Alumni Representative">
+            <h3>Alumni Representative</h3>
+            <p>Former BSE Student</p>
+            <p>Brand Identity Designer</p>
+        </div>
+        <!-- More team members here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="events">Select Event(s):</label><br>
+            <input type="checkbox" id="event1" name="event1" value="Professional Development Event 1">
+            <label for="event1">Professional Development Event 1</label><br>
+            <!-- More event checkboxes here -->
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 AlumniConnect</p>
+    </footer>    
+
+    <script src="script.js"></script>
+</body>
+</html>

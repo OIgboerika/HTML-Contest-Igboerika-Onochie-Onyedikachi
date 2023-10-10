@@ -1,0 +1,192 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #000000;
+    color: #fff;
+}
+/* Styles for the "Aims and Objectives" section */
+#aims-objectives {
+    background-color: #000000; /* Background color */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#aims-objectives h2 {
+    font-size: 24px; /* Adjust the font size for the section heading */
+    margin-bottom: 10px;
+}
+
+#aims-objectives ul {
+    list-style-type: disc; /* Use bullets for the list */
+    text-align: left;
+    margin-left: 20px; /* Add indentation to the list items */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Event styles */
+/* Update event styles to create card-like design */
+/* Center the "Upcoming Events" header */
+#events h2 {
+    text-align: center;
+}
+
+.event {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.event:hover {
+    transform: translateY(-5px);
+}
+
+/* Add some spacing between events */
+#events {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* Center the "Upcoming Events" header */
+
+
+/* Additional styling for event buttons */
+.event button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.event button:hover {
+    background-color: #0ae84c;
+}
+
+
+/* About section styles */
+#about {
+    background-color: #000000; /* Change the background color */
+    color: #fff;
+    text-align: center; /* Center-align the content */
+    padding: 40px 0; /* Add padding for spacing */
+}
+
+.member {
+    margin: 20px;
+    display: inline-block; /* Display members side by side */
+    text-align: center;
+    max-width: 300px; /* Limit the maximum width of each member box */
+}
+
+.member img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.member h3 {
+    margin-top: 10px;
+}
+
+/* Adjust the rest of the CSS for consistency */
+/* ... */
+
+/* Contact form styles */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #0bef16;
+}
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
